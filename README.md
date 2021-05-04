@@ -1,4 +1,4 @@
-Welcome to Vuhze tech test
+# Test Repo for Next.js React API Blog
 
 ## Getting Started
 
