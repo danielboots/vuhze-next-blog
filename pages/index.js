@@ -1,3 +1,5 @@
+import { server } from "../config";
+
 import Head from "next/head";
 import ArticleList from "../components/ArticleList";
 
