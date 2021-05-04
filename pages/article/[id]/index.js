@@ -1,11 +1,16 @@
 import { useRouter } from "next/router";
 
-function article({ article }) {
+const article = ({ article }) => {
   //   const router = useRouter();
   //   const { id } = router.query;
 
-  return <div>this is article {article.id} </div>;
-}
+  return (
+    <>
+      <h1>this is article {article.title} </h1>
+      <p>{article.body}</p>
+    </>
+  );
+};
 
 export const getServerSideProps = async (context) => {
   const res = await fetch(
